@@ -9,11 +9,23 @@ public class TV {
 	String color;
 	String DisplayType;
 	
+	void insertData(String B, String m, Integer s, Integer p, String c,
+			String dt) {
+		
+		Brand=B;
+		ModelName=m;
+		Screensize=s;
+		 price=p;
+		 color=c;
+		 DisplayType=dt;
+		 
+}
 	//defining the main class
 	public static void main (String args[]) {
 		TV lgOled = new TV();
 		TV samsungFrame= new TV();
 		
+	
 	lgOled.Brand="LG";
 		lgOled.ModelName= "4k led 75 TV";
 		lgOled.Screensize= 75;
@@ -22,8 +34,10 @@ public class TV {
 		lgOled.DisplayType="OLed";
 		
 		
-		System.out.println(lgOled.Brand+ " "+ lgOled.ModelName+" " +lgOled.Screensize+" "+lgOled.price+" "
-+lgOled.color+ " "+ lgOled.DisplayType+" ");
+		samsungFrame.insertData("samsung", "65FrameTV", 65, 12000, "beige", "led");
+		
+		System.out.println(samsungFrame.Brand+ " "+ samsungFrame.ModelName+" " +samsungFrame.Screensize+" "+samsungFrame.price+" "
++samsungFrame.color+ " "+ samsungFrame.DisplayType+" ");
 		
 	}
 
