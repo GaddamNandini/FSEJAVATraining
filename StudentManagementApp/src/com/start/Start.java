@@ -47,6 +47,7 @@ public class Start {
 			}
 			else if (choice == 2) {
 				// delete student
+				System.out.println();
 			}
 			else if (choice == 3) {
 				// exit student

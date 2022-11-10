@@ -2,19 +2,19 @@ package com.start.Student;
 
 public class Student {
 
-	private int studentID;
+	//private int studentID;
 	private String studentName;
 	private String studentPhone;
 	private String studentCity;
 
-	public Student(int studentID, String studentName, String studentPhone, String studentCity) {
-		super();
-		this.studentID = studentID;
-		this.studentName = studentName;
-		this.studentPhone = studentPhone;
-		this.studentCity = studentCity;
+//	public Student(int studentID, String studentName, String studentPhone, String studentCity) {
+//		super();
+//		//this.studentID = studentID;
+//		this.studentName = studentName;
+//		this.studentPhone = studentPhone;
+//		this.studentCity = studentCity;
 
-	}
+	//}
 
 	public Student(String studentName, String studentPhone, String studentCity) {
 		super();
@@ -27,13 +27,13 @@ public class Student {
 		super();
 	}
 
-	public int getStudentID() {
-		return studentID;
-	}
+//	public int getStudentID() {
+//		return studentID;
+//	}
 
-	public void setStudentID(int studentID) {
-		this.studentID = studentID;
-	}
+//	public void setStudentID(int studentID) {
+//		this.studentID = studentID;
+//	}
 
 	public String getStudentName() {
 		return studentName;
@@ -61,7 +61,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [studentID=" + studentID + ", studentName=" + studentName + ", studentPhone=" + studentPhone
+		return "Student[ studentName=" + studentName+ ", studentPhone=" + studentPhone
 				+ ", studentCity=" + studentCity + "]";
 	}
 	
